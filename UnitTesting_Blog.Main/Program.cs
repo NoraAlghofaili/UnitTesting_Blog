@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace UnitTesting_Blog
+namespace UnitTesting_Blog.Main
 {
     class Program
     {

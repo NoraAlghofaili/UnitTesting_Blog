@@ -1,4 +1,4 @@
-﻿namespace UnitTesting_Blog
+﻿namespace UnitTesting_Blog.Main.enums
 {
     public enum VacationState
     {

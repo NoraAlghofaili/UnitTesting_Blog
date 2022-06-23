@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UnitTesting_Blog.Main.enums;
 
-namespace UnitTesting_Blog
+namespace UnitTesting_Blog.Main
 {
     public  class Vacation
     {
@@ -19,7 +20,7 @@ namespace UnitTesting_Blog
         }
         public DateTime From { get; private set; }
         public DateTime To { get; private set; }
-        public VacationState State { private get; set; }
+        public VacationState State {  get; private set; }
         public int Period { get; private set; }
         private int Days()
         {
