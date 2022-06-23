@@ -8,9 +8,6 @@ namespace UnitTesting_Blog
 {
     public  class Vacation
     {
-        //When_Vacations_End_Date_IsEarlierThan_Start_Date_Throw_Exception
-        //When_Vacation_Is_Created_First_State_Is_WaitingForDecision
-        //Vacation_Period_Must_Ommit_Weekends
         public Vacation(DateTime from, DateTime to)
         {
             if (to > from)
@@ -24,8 +21,6 @@ namespace UnitTesting_Blog
         public DateTime To { get; private set; }
         public VacationState State { private get; set; }
         public int Period { get; private set; }
-        //VacationDaysMustOmmit_Weekends
-        //VacatiosDays
         private int Days()
         {
             var currentDate = From;
