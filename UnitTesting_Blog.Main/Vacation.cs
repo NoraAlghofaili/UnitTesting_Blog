@@ -47,5 +47,10 @@ namespace UnitTesting_Blog.Main
             }
             return days;
         }
+        public void UpdateType(VacationType vacationType)
+        {
+            this.Type = vacationType;
+            SetStatus(this.Type);
+        }
     }
 }
